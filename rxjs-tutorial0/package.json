@@ -1,0 +1,23 @@
+{
+  "name": "rxjs-tutorial0",
+  "version": "1.0.0",
+  "description": "Create a HTML page and call rxjs script from there.\r https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.3/Rx.js",
+  "main": "testrx.js",
+  "scripts": {
+    "publish_old":"webpack && webpack-dev-server --output-public=/dev/",
+    "publish":"webpack && webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "babel-loader": "^9.1.3",
+    "esm": "^3.2.25",
+    "rxjs": "^7.8.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
